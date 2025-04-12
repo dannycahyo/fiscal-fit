@@ -1,0 +1,24 @@
+{
+  "name": "fiscal-fit",
+  "version": "1.0.0",
+  "description": "A comprehensive personal finance management application",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter=* build",
+    "dev": "pnpm --parallel --filter=* dev",
+    "lint": "pnpm --parallel --filter=* lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "keywords": ["finance", "budgeting", "expense-tracking"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
