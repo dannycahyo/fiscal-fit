@@ -26,6 +26,9 @@ importers:
       '@tamagui/lucide-icons':
         specifier: ^1.125.34
         version: 1.125.34(react-dom@18.3.1(react@18.3.1))(react-native-svg@15.11.2(react-native@0.76.9(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native@0.76.9(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1)
+      '@tanstack/react-query':
+        specifier: ^5.73.3
+        version: 5.73.3(react@18.3.1)
       expo:
         specifier: ~52.0.43
         version: 52.0.44(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@expo/metro-runtime@4.0.1(react-native@0.76.9(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1)))(react-native-webview@13.12.5(react-native@0.76.9(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1))(react-native@0.76.9(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@18.3.20)(react@18.3.1))(react@18.3.1)
@@ -2002,6 +2005,14 @@ packages:
 
   '@tamagui/z-index-stack@1.125.34':
     resolution: {integrity: sha512-FJNw3MKgZbxulXcuN6o1/X9yp0IWJEtzGmh+cAgRNWnya0YnQIfDMSNChNrj4ajSAoWR0i9P9maPrz+hR5/n5w==}
+
+  '@tanstack/query-core@5.73.3':
+    resolution: {integrity: sha512-LUpsgVT3IkvOECdkQ3QD6esczSH71mAzH/LDZ2cu8j6w430v5W0JB1ulzsG8FFwFBd5fm/ePM2DFpg9TucRMgQ==}
+
+  '@tanstack/react-query@5.73.3':
+    resolution: {integrity: sha512-umsAEsVsSSnrOZrstX/OlctdqkRZm6vPsetmbl241tdNo0jT3s+0bUoof9kCaTsPr/GopPlbJ1OYlrZj4toKzg==}
+    peerDependencies:
+      react: ^18 || ^19
 
   '@tootallnate/once@2.0.0':
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
@@ -8449,6 +8460,13 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
 
   '@tamagui/z-index-stack@1.125.34': {}
+
+  '@tanstack/query-core@5.73.3': {}
+
+  '@tanstack/react-query@5.73.3(react@18.3.1)':
+    dependencies:
+      '@tanstack/query-core': 5.73.3
+      react: 18.3.1
 
   '@tootallnate/once@2.0.0': {}
 
