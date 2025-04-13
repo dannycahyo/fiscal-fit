@@ -13,6 +13,7 @@ This Technical Requirements Document (TRD) provides detailed specifications for 
 | Expo               | Latest (SDK 48+) | Cross-platform development framework         |
 | Expo Router        | Latest           | File-based routing system                    |
 | React              | 18+              | Core UI framework                            |
+| Tamagui            | Latest           | Multi platform UI library                    |
 | TypeScript         | 4.9+             | Type-safe programming language               |
 | TanStack Query     | Latest           | Data fetching, caching, and state management |
 | Expo SQLite        | Latest           | Local data storage                           |
