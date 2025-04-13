@@ -9,8 +9,12 @@
     "lint": "pnpm --parallel --filter=* lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
-  "keywords": ["finance", "budgeting", "expense-tracking"],
-  "author": "",
+  "keywords": [
+    "finance",
+    "budgeting",
+    "expense-tracking"
+  ],
+  "author": "dannycahyo",
   "license": "ISC",
   "packageManager": "pnpm@10.6.3",
   "workspaces": [
