@@ -2,8 +2,6 @@
 
 A comprehensive personal finance management application designed to help users track expenses, manage budgets, allocate income, monitor receivables, and manage subscriptions.
 
-![Fiscal Fit](https://via.placeholder.com/800x400?text=Fiscal+Fit+App)
-
 ## 🚀 Overview
 
 Fiscal Fit aims to solve common financial management challenges through an intuitive, feature-rich platform available on mobile and web. Our application transforms personal financial management through thoughtful automation, insightful analytics, and behavioral psychology, empowering users to develop better financial habits and achieve their financial goals.
